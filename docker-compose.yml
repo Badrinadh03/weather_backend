@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+
+  # ── MongoDB ──────────────────────────────────────────────────────────────────
+  mongodb:
+    image: mongo:7.0
+    container_name: pipeline_mongodb
+    ports:
+      - "27017:27017"       # standard MongoDB port
+    environment:
+      MONGO_INITDB_DATABASE: pipeline_db
+    volumes:
+      - mongodb_data:/data/db    # data persists across restarts
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Mongo Express — visual DB browser (like phpMyAdmin for MongoDB) ──────────
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: pipeline_mongo_express
+    ports:
+      - "8081:8081"         # open localhost:8081 to browse your data
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongodb
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_BASICAUTH: false
+    depends_on:
+      mongodb:
+        condition: service_healthy
+
+volumes:
+  mongodb_data:

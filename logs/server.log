@@ -1,0 +1,156 @@
+2026-03-28 01:21:24,858 [INFO] ╔══════════════════════════════════════════╗
+2026-03-28 01:21:24,858 [INFO] ║   INGESTION SERVER STARTING (uvicorn)    ║
+2026-03-28 01:21:24,858 [INFO] ╚══════════════════════════════════════════╝
+2026-03-28 01:21:24,858 [INFO] Weather interval : every 10 minutes
+2026-03-28 01:21:24,858 [INFO] Stocks interval  : every 60 minutes
+2026-03-28 01:21:24,858 [INFO] Weather loop started
+2026-03-28 01:21:24,859 [INFO] ==================================================
+2026-03-28 01:21:24,859 [INFO] WEATHER JOB STARTED
+2026-03-28 01:21:24,915 [INFO] Connected to MongoDB at mongodb://localhost:27017
+2026-03-28 01:21:25,118 [INFO]   New York: 3.9°C, scattered clouds
+2026-03-28 01:21:25,802 [INFO]   London: 4.01°C, scattered clouds
+2026-03-28 01:21:26,479 [INFO]   Tokyo: 18.22°C, broken clouds
+2026-03-28 01:21:27,160 [INFO]   Sydney: 22.08°C, scattered clouds
+2026-03-28 01:21:28,067 [INFO]   Berlin: 1.49°C, clear sky
+2026-03-28 01:21:28,585 [INFO] WEATHER DONE — inserted: 5, cities: 5, errors: [], duration: 3.73s
+2026-03-28 01:21:28,598 [INFO] Stocks loop started
+2026-03-28 01:21:28,599 [INFO] ==================================================
+2026-03-28 01:21:28,599 [INFO] STOCKS JOB STARTED
+2026-03-28 01:21:28,999 [INFO]   AAPL: 100 days fetched
+2026-03-28 01:21:42,226 [INFO]   MSFT: 100 days fetched
+2026-03-28 01:21:55,468 [INFO]   GOOGL: 100 days fetched
+2026-03-28 01:22:08,700 [INFO]   AMZN: 100 days fetched
+2026-03-28 01:22:21,944 [INFO]   NVDA: 100 days fetched
+2026-03-28 01:22:34,973 [INFO] STOCKS DONE — inserted: 500, symbols: 5, errors: [], duration: 66.37s
+2026-03-28 01:31:18,434 [INFO] ╔══════════════════════════════════════════╗
+2026-03-28 01:31:18,435 [INFO] ║   INGESTION SERVER STARTING (uvicorn)    ║
+2026-03-28 01:31:18,435 [INFO] ╚══════════════════════════════════════════╝
+2026-03-28 01:31:18,435 [INFO] Weather interval : every 10 minutes
+2026-03-28 01:31:18,435 [INFO] Stocks interval  : every 60 minutes
+2026-03-28 01:31:18,435 [INFO] Weather loop started
+2026-03-28 01:31:18,435 [INFO] ==================================================
+2026-03-28 01:31:18,435 [INFO] WEATHER JOB STARTED
+2026-03-28 01:31:18,502 [INFO] Connected to MongoDB at mongodb://localhost:27017
+2026-03-28 01:31:18,717 [INFO]   New York: 3.9°C, scattered clouds
+2026-03-28 01:31:19,394 [INFO]   London: 4.01°C, scattered clouds
+2026-03-28 01:31:20,075 [INFO]   Tokyo: 18.22°C, broken clouds
+2026-03-28 01:31:20,756 [INFO]   Sydney: 22.08°C, scattered clouds
+2026-03-28 01:31:21,433 [INFO]   Berlin: 1.49°C, clear sky
+2026-03-28 01:31:21,946 [INFO] WEATHER DONE — inserted: 5, cities: 5, errors: [], duration: 3.51s
+2026-03-28 01:31:21,969 [INFO] Stocks loop started
+2026-03-28 01:31:21,969 [INFO] ==================================================
+2026-03-28 01:31:21,969 [INFO] STOCKS JOB STARTED
+2026-03-28 01:31:22,286 [INFO]   AAPL: 100 days fetched
+2026-03-28 01:31:35,516 [INFO]   MSFT: 100 days fetched
+2026-03-28 01:31:48,752 [INFO]   GOOGL: 100 days fetched
+2026-03-28 01:32:01,974 [INFO]   AMZN: 100 days fetched
+2026-03-28 01:32:15,190 [INFO]   NVDA: 100 days fetched
+2026-03-28 01:32:28,208 [INFO] STOCKS DONE — inserted: 500, symbols: 5, errors: [], duration: 66.24s
+2026-03-28 01:38:09,295 [INFO] ╔══════════════════════════════════════════╗
+2026-03-28 01:38:09,295 [INFO] ║   INGESTION SERVER STARTING (uvicorn)    ║
+2026-03-28 01:38:09,295 [INFO] ╚══════════════════════════════════════════╝
+2026-03-28 01:38:09,295 [INFO] Weather interval : every 10 minutes
+2026-03-28 01:38:09,295 [INFO] Stocks interval  : every 60 minutes
+2026-03-28 01:38:09,295 [INFO] Weather loop started
+2026-03-28 01:38:09,295 [INFO] ==================================================
+2026-03-28 01:38:09,295 [INFO] WEATHER JOB STARTED
+2026-03-28 01:38:09,321 [INFO] Connected to MongoDB at mongodb://localhost:27017
+2026-03-28 01:38:09,517 [INFO]   New York: 3.78°C, scattered clouds
+2026-03-28 01:38:10,205 [INFO]   London: 4.11°C, clear sky
+2026-03-28 01:38:10,887 [INFO]   Tokyo: 18.71°C, scattered clouds
+2026-03-28 01:38:11,566 [INFO]   Sydney: 20.97°C, clear sky
+2026-03-28 01:38:12,248 [INFO]   Berlin: 2.31°C, clear sky
+2026-03-28 01:38:12,754 [INFO] WEATHER DONE — inserted: 5, cities: 5, errors: [], duration: 3.46s
+2026-03-28 01:38:12,777 [INFO] Stocks loop started
+2026-03-28 01:38:12,777 [INFO] ==================================================
+2026-03-28 01:38:12,777 [INFO] STOCKS JOB STARTED
+2026-03-28 01:38:13,072 [INFO]   AAPL: 100 days fetched
+2026-03-28 01:38:26,284 [INFO]   MSFT: 100 days fetched
+2026-03-28 01:38:39,519 [INFO]   GOOGL: 100 days fetched
+2026-03-28 01:38:52,754 [INFO]   AMZN: 100 days fetched
+2026-03-28 01:39:05,976 [INFO]   NVDA: 100 days fetched
+2026-03-28 01:39:19,000 [INFO] STOCKS DONE — inserted: 500, symbols: 5, errors: [], duration: 66.22s
+2026-03-28 01:44:16,162 [INFO] ╔══════════════════════════════════════════╗
+2026-03-28 01:44:16,162 [INFO] ║   INGESTION SERVER STARTING (uvicorn)    ║
+2026-03-28 01:44:16,163 [INFO] ╚══════════════════════════════════════════╝
+2026-03-28 01:44:16,163 [INFO] Weather interval : every 10 minutes
+2026-03-28 01:44:16,163 [INFO] Stocks interval  : every 60 minutes
+2026-03-28 01:44:16,163 [INFO] Weather loop started
+2026-03-28 01:44:16,163 [INFO] ==================================================
+2026-03-28 01:44:16,163 [INFO] WEATHER JOB STARTED
+2026-03-28 01:44:16,189 [INFO] Connected to MongoDB at mongodb://localhost:27017
+2026-03-28 01:44:16,380 [INFO]   New York: 3.78°C, scattered clouds
+2026-03-28 01:44:17,081 [INFO]   London: 4.11°C, clear sky
+2026-03-28 01:44:17,762 [INFO]   Tokyo: 18.43°C, broken clouds
+2026-03-28 01:44:18,450 [INFO]   Sydney: 20.96°C, clear sky
+2026-03-28 01:44:19,137 [INFO]   Berlin: 2.38°C, clear sky
+2026-03-28 01:44:19,658 [INFO] WEATHER DONE — inserted: 5, cities: 5, errors: [], duration: 3.49s
+2026-03-28 01:44:19,679 [INFO] Stocks loop started
+2026-03-28 01:44:19,679 [INFO] ==================================================
+2026-03-28 01:44:19,679 [INFO] STOCKS JOB STARTED
+2026-03-28 01:44:19,856 [INFO]   AAPL: 0 days fetched
+2026-03-28 01:44:33,076 [INFO]   MSFT: 0 days fetched
+2026-03-28 01:44:46,269 [INFO]   GOOGL: 0 days fetched
+2026-03-28 01:44:59,460 [INFO]   AMZN: 0 days fetched
+2026-03-28 01:45:12,660 [INFO]   NVDA: 0 days fetched
+2026-03-28 01:45:25,669 [INFO] STOCKS DONE — inserted: 0, symbols: 5, errors: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA'], duration: 65.99s
+2026-03-28 01:49:33,921 [INFO] ╔══════════════════════════════════════════╗
+2026-03-28 01:49:33,922 [INFO] ║   INGESTION SERVER STARTING (uvicorn)    ║
+2026-03-28 01:49:33,922 [INFO] ╚══════════════════════════════════════════╝
+2026-03-28 01:49:33,922 [INFO] Weather interval : every 10 minutes
+2026-03-28 01:49:33,922 [INFO] Stocks interval  : every 60 minutes
+2026-03-28 01:49:33,922 [INFO] Weather loop started
+2026-03-28 01:49:33,922 [INFO] ==================================================
+2026-03-28 01:49:33,922 [INFO] WEATHER JOB STARTED
+2026-03-28 01:49:33,981 [INFO] Connected to MongoDB at mongodb://localhost:27017
+2026-03-28 01:49:34,325 [INFO]   New York: 3.72°C, scattered clouds
+2026-03-28 01:49:35,025 [INFO]   London: 4.11°C, clear sky
+2026-03-28 01:49:35,705 [INFO]   Tokyo: 18.43°C, broken clouds
+2026-03-28 01:49:36,390 [INFO]   Sydney: 20.96°C, clear sky
+2026-03-28 01:49:37,069 [INFO]   Berlin: 2.38°C, clear sky
+2026-03-28 01:49:37,590 [INFO] WEATHER DONE — inserted: 5, cities: 5, errors: [], duration: 3.67s
+2026-03-28 01:49:37,614 [INFO] Stocks loop started
+2026-03-28 01:49:37,615 [INFO] ==================================================
+2026-03-28 01:49:37,615 [INFO] STOCKS JOB STARTED
+2026-03-28 01:49:37,783 [INFO]   AAPL: 0 days fetched
+2026-03-28 01:49:50,950 [INFO]   MSFT: 0 days fetched
+2026-03-28 01:50:04,135 [INFO]   GOOGL: 0 days fetched
+2026-03-28 01:50:17,338 [INFO]   AMZN: 0 days fetched
+2026-03-28 01:50:30,561 [INFO]   NVDA: 0 days fetched
+2026-03-28 01:50:43,570 [INFO] STOCKS DONE — inserted: 0, symbols: 5, errors: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA'], duration: 65.95s
+2026-03-28 01:59:37,619 [INFO] ==================================================
+2026-03-28 01:59:37,644 [INFO] WEATHER JOB STARTED
+2026-03-28 01:59:38,006 [INFO]   New York: 3.5°C, broken clouds
+2026-03-28 01:59:38,770 [INFO]   London: 4.2°C, clear sky
+2026-03-28 01:59:39,545 [INFO]   Tokyo: 18.13°C, broken clouds
+2026-03-28 01:59:40,322 [INFO]   Sydney: 20.41°C, broken clouds
+2026-03-28 01:59:41,044 [INFO]   Berlin: 3.37°C, clear sky
+2026-03-28 01:59:47,019 [ERROR] WEATHER JOB FAILED: 'list' object has no attribute 'get'
+2026-03-28 01:59:52,067 [WARNING] Could not write to pipeline_logs: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69c779fd8043b059e931e718, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-28 02:09:52,074 [INFO] ==================================================
+2026-03-28 02:09:52,077 [INFO] WEATHER JOB STARTED
+2026-03-28 02:09:52,355 [INFO]   New York: 3.33°C, few clouds
+2026-03-28 02:09:53,035 [INFO]   London: 4.51°C, clear sky
+2026-03-28 02:09:53,737 [INFO]   Tokyo: 18.18°C, broken clouds
+2026-03-28 02:09:54,440 [INFO]   Sydney: 20.09°C, broken clouds
+2026-03-28 02:09:55,125 [INFO]   Berlin: 3.69°C, clear sky
+2026-03-28 02:10:01,042 [ERROR] WEATHER JOB FAILED: 'list' object has no attribute 'get'
+2026-03-28 02:10:06,123 [WARNING] Could not write to pipeline_logs: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69c779fd8043b059e931e718, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-28 02:20:06,127 [INFO] ==================================================
+2026-03-28 02:20:06,134 [INFO] WEATHER JOB STARTED
+2026-03-28 02:20:06,418 [INFO]   New York: 3.3°C, few clouds
+2026-03-28 02:20:07,094 [INFO]   London: 4.97°C, clear sky
+2026-03-28 02:20:07,776 [INFO]   Tokyo: 17.68°C, scattered clouds
+2026-03-28 02:20:08,465 [INFO]   Sydney: 20.51°C, broken clouds
+2026-03-28 02:20:09,153 [INFO]   Berlin: 4.15°C, clear sky
+2026-03-28 02:20:14,889 [ERROR] WEATHER JOB FAILED: 'list' object has no attribute 'get'
+2026-03-28 02:20:19,950 [WARNING] Could not write to pipeline_logs: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69c779fd8043b059e931e718, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-28 02:30:19,955 [INFO] ==================================================
+2026-03-28 02:30:19,957 [INFO] WEATHER JOB STARTED
+2026-03-28 02:30:20,194 [INFO]   New York: 3.07°C, few clouds
+2026-03-28 02:30:20,884 [INFO]   London: 5.11°C, clear sky
+2026-03-28 02:30:21,559 [INFO]   Tokyo: 17.55°C, scattered clouds
+2026-03-28 02:30:22,250 [INFO]   Sydney: 20.19°C, broken clouds
+2026-03-28 02:30:22,935 [INFO]   Berlin: 5.16°C, clear sky
+2026-03-28 02:30:28,777 [ERROR] WEATHER JOB FAILED: 'list' object has no attribute 'get'
+2026-03-28 02:30:33,832 [WARNING] Could not write to pipeline_logs: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69c779fd8043b059e931e718, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
